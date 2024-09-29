@@ -2,8 +2,12 @@ package main
 
 import (
 	"fmt"
+	"golanglearn/utils"
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	var number int
+	fmt.Print("Enter a number: ")
+	fmt.Scan(&number)
+	utils.CheckOddOrEven(number) // Call the function from the utils package
 }
