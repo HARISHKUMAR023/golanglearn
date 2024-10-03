@@ -6,9 +6,11 @@ import (
 )
 
 func main() {
-	var number int
-	fmt.Print("Enter a number: ")
-	fmt.Scan(&number)
-	utils.CheckOddOrEven(number) // Call the function from the utils package
-	utils.Factorial(number)
+	// var number int
+	var word string
+	fmt.Print("Enter a word: ")
+	fmt.Scan(&word)
+	utils.Palindarame(word)
+	// utils.CheckOddOrEven(number) // Call the function from the utils package
+	// utils.Factorial(number)
 }

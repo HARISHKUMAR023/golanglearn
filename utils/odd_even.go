@@ -18,3 +18,18 @@ func Factorial(a int) {
 	}
 	fmt.Println(ans)
 }
+
+func Palindarame(s string) {
+	var p string = ""
+	for i := len(s) - 1; i >= 0; i-- {
+		p += string(s[i])
+		// fmt.Printf("%c\n", s[i])
+
+	}
+	if p == s {
+		fmt.Println("palindrome")
+	} else {
+		fmt.Println("not palindrome")
+	}
+
+}
