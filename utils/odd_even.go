@@ -10,3 +10,11 @@ func CheckOddOrEven(a int) {
 		fmt.Println("It is an odd number")
 	}
 }
+
+func Factorial(a int) {
+	var ans int = 1
+	for i := 1; i <= a; i++ {
+		ans = ans * i
+	}
+	fmt.Println(ans)
+}

@@ -10,4 +10,5 @@ func main() {
 	fmt.Print("Enter a number: ")
 	fmt.Scan(&number)
 	utils.CheckOddOrEven(number) // Call the function from the utils package
+	utils.Factorial(number)
 }
