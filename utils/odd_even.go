@@ -33,3 +33,13 @@ func Palindarame(s string) {
 	}
 
 }
+
+func Findlag(a [5]int) {
+	var maxi int = int(a[0])
+	for i := 0; i <= len(a)-1; i++ {
+		if int(a[i]) > maxi {
+			maxi = int(a[i])
+		}
+	}
+	fmt.Println(maxi)
+}
